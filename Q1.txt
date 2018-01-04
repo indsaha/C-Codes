@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+    int i, j;
+ 
+    printf("Enter the values for i and j\n");
+    scanf("%d %d", &i, &j);
+    if (i == j)
+        printf("i and j are equal\n");
+    else
+        printf("i and j are not equal\n");
+}
